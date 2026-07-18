@@ -1,5 +1,5 @@
-1. muqdisho 
-3. boosaaso (bandar-qaasim)
-4. kalabayr bari
-5. ceerigaabo 
-6. galkacyo
+muqdisho 
+boosaaso (bandar-qaasim)
+kalabayr bari
+ceerigaabo 
+galkacyo
