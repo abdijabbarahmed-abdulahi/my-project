@@ -1,8 +1,8 @@
-1.cali 
-2.abdi 
-3. muuse 
-4. xawo abdi
-5.qardood
-6. xiiqaaye
-7. xabada rite
-8. qanjo
+cali 
+abdi 
+muuse 
+xawo abdi
+qardood
+xiiqaaye
+xabada rite
+qanjo
