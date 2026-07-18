@@ -8,3 +8,4 @@ baytaraf
 bocor
 basbaas
 kamsar
+kaabish
