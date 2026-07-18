@@ -2,3 +2,4 @@ baasto
 bariis
 bur
 canjeero
+qamadi
