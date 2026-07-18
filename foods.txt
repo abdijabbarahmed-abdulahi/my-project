@@ -3,3 +3,4 @@ bariis
 bur
 canjeero
 qamadi
+galay
