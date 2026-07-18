@@ -4,3 +4,4 @@ bur
 canjeero
 qamadi
 galay
+soor
