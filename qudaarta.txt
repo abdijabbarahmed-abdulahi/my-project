@@ -9,3 +9,4 @@ bocor
 basbaas
 kamsar
 kaabish
+karooto
