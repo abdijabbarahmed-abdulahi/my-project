@@ -10,17 +10,15 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
 
-    env:
-      STUDENT_NAME: ${{ secrets.STUDENT_NAME }}
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Greeting
+        env:
+         STUDENT_NAME: ${{ vars.STUDENT_NAME }}
         run: |
-          echo "👋 Hello, $STUDENT_NAME"
-          echo "Welcome to the GitHub Actions workflow."
+          echo "👋 Hello, ${{env.STUDENT_NAME}}"
 
       - name: Count Repository Files
         run: |
