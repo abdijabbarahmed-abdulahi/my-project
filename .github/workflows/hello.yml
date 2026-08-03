@@ -1,0 +1,28 @@
+name: Greeting and Count Repository Files
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+
+    env:
+      STUDENT_NAME: ${{ secrets.STUDENT_NAME }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Greeting
+        run: |
+          echo "👋 Hello, $STUDENT_NAME"
+          echo "Welcome to the GitHub Actions workflow."
+
+      - name: Count Repository Files
+        run: |
+          FILE_COUNT=$(find . -type f -not -path '*/.*' | wc -l)
+          echo "📁 Total files (Excluded sicret files)in this repository is : $FILE_COUNT"
